@@ -13,6 +13,11 @@ body {
     text-decoration: none;
 }
 
+.black
+{
+    color: black;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -377,8 +382,8 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
-        position: relative;
-        top: 25%;
+        position: absolute;
+        top: 50%;
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
@@ -709,11 +714,6 @@ p {
     padding-bottom: 30px;
 }
 
-.social i
-{
-    color: white;
-    background-color: black;
-}
 
 .taille-p
 {
