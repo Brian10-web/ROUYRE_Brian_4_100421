@@ -7,6 +7,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* @font-face {
+    font-display: swap;
+} */
+.footer-li
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .nav-style
 {
     list-style-type: none;
