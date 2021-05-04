@@ -7,9 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* @font-face {
+@font-face 
+{
     font-display: swap;
-} */
+}
+
 .footer-li
 {
     margin-top: 5px;
@@ -22,7 +24,7 @@ body {
     text-decoration: none;
 }
 
-#image
+.image
 {
     width: 100%;
     height: auto;
@@ -897,7 +899,7 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -907,7 +909,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+} */
 
 @media (max-width: 991px) {
     .container {
